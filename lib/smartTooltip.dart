@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'TooltipBorderPainter.dart';
-import 'TooltipPainter.dart';
+import 'tooltipBorderPainter.dart';
+import 'tooltipPainter.dart';
 
 class SmartTooltip extends StatefulWidget {
   final Widget child;
