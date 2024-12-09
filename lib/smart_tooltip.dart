@@ -1,4 +1,4 @@
 library smart_tooltip;
 
-export 'smartTooltip.dart';
-export 'smartTooltipWithWidget.dart';
+export 'package:smart_tooltip/smartTooltip.dart';
+export 'package:smart_tooltip/smartTooltipWithWidget.dart';

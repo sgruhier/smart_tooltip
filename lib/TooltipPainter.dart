@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'smartTooltip.dart';
+import 'package:smart_tooltip/smartTooltip.dart';
 
 /// A custom painter for drawing the tooltip background and text based on position.
 class TooltipPainter extends CustomPainter {

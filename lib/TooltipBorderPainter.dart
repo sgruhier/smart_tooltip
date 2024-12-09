@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'smartTooltip.dart';
+import 'package:smart_tooltip/smartTooltip.dart';
 
 /// Custom painter to draw the border for the tooltip based on its position.
 class TooltipBorderPainter extends CustomPainter {

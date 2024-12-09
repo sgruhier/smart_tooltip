@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:smart_tooltip/TooltipWithWidgetBorder.dart';
 import 'package:smart_tooltip/smartTooltip.dart';
-
-import 'TooltipWithWidgetBorder.dart';
 
 /// A widget that displays a customizable tooltip with a widget as its content.
 /// The tooltip is dynamically positioned based on available space and user configuration.
