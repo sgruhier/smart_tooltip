@@ -41,7 +41,8 @@ To use the `smart_tooltip` package in your Flutter project:
             home: Scaffold(
                 appBar: AppBar(title: Text('Smart Tooltip Example')),
                 body: Center(
-                child: CustomTooltip(
+                child: SmartTooltip(
+                    borderColor: Colors.black,
                     message: 'This is a tooltip!',
                     child: ElevatedButton(
                     onPressed: () {},
@@ -56,10 +57,10 @@ To use the `smart_tooltip` package in your Flutter project:
 
 5.Custom Tooltip with Widgets:
 ```yaml
-        CustomTooltipWithWidget(
+        SmartTooltip(
+        borderColor: Colors.black,
         message: 'Here is a custom tooltip!',
         child: Icon(Icons.info),
-        tooltipWidget: Text('This is a custom widget inside the tooltip!'),
             )
 
 
