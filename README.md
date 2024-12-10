@@ -30,7 +30,7 @@ To use the `smart_tooltip` package in your Flutter project:
 
    ```yaml
    dependencies:
-     smart_tooltip: ^0.0.15
+     smart_tooltip: ^0.0.16
 2. Run flutter pub get to install the dependencies.
 
 3. Import the package into your Dart file:
