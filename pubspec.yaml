@@ -1,0 +1,41 @@
+name: smart_tooltip
+description: "A flexible and customizable tooltip widget for Flutter applications."
+
+version: 0.0.14
+homepage: https://github.com/FlutterJarvis/smart_tooltip # Replace with your package homepage (GitHub or similar)
+repository: https://github.com/FlutterJarvis/smart_tooltip # Replace with your repository link
+issue_tracker:  https://github.com/FlutterJarvis/smart_tooltip/issues # Replace with your issue tracker link
+documentation: "https://pub.dev/documentation/smart_tooltip/latest/"
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 # Lints for ensuring code quality
+  pedantic: ^1.11.1 # Optional: Google-recommended Dart style guide
+
+# This section is Flutter-specific. Use it to add assets, fonts, and dependencies for your Flutter package.
+flutter:
+
+  # Uncomment and add paths to assets if your package uses any.
+  # assets:
+  #   - images/sample_image.png
+
+  # Uncomment if you include custom fonts.
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
+
+
+# Optional: Dependencies for example apps or samples, placed in `example/`
+examples:
+  - example
