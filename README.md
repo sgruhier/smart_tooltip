@@ -69,13 +69,35 @@ To use the `smart_tooltip` package in your Flutter project:
         }
         }
 
-5.Custom Tooltip with Widgets:
+5.Custom Tooltip with Simple Text:
 ```yaml
         SmartTooltip(
         borderColor: Colors.black,
         message: 'Here is a custom tooltip!',
         child: Icon(Icons.info),
-            )
+            ),
+5.Custom Tooltip with Custom Widget:
+```yaml           
+        SmartTooltipWithWidget(
+              // border radius of the tooltip soul be equal to the border radius of the content widget widget if any
+              borderRadius: 10,
+              tooltipContent: Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Text('Hello'),
+              ),
+              borderColor: const Color(0xFF04A777),
+              position: TooltipPosition.top,
+              child: const Icon(
+                Icons.ac_unit,
+                size: 50,
+                color: Color(0xFF04A777),
+              ),
+            ),
 
 
 
