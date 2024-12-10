@@ -23,8 +23,20 @@ To use the `smart_tooltip` package in your Flutter project:
 3. Import the package into your Dart file:
     ```yaml
     import 'package:smart_tooltip/smart_tooltip.dart';
+4. Examples 
+## Example 1: Simple Tooltip with Text
+The simple tooltip displays text content with a customizable background color, border, and position.
 
-4. Usage
+![Simple Tooltip with Text](assets/example1.png "Simple Tooltip with Text")
+
+---
+
+## Example 2: Tooltip with Custom Widgets
+The advanced tooltip can display custom widgets, allowing you to fully personalize the content inside the tooltip.
+
+![Tooltip with Custom Widgets](assets/example2.png "Tooltip with Custom Widgets")
+
+5. Usage
     Here’s an example of how to use CustomTooltip:
     ```yaml
     import 'package:flutter/material.dart';
@@ -55,7 +67,7 @@ To use the `smart_tooltip` package in your Flutter project:
         }
         }
 
-5.Custom Tooltip with Widgets:
+6.Custom Tooltip with Widgets:
 ```yaml
         SmartTooltip(
         borderColor: Colors.black,
