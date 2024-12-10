@@ -9,6 +9,19 @@ A flexible and customizable tooltip widget for Flutter applications. The `smart_
 - **Customizable Trigger Events:** Show tooltips on hover, tap, or focus, with easy-to-use event listeners.
 - **Positioning Flexibility:** Display tooltips relative to any widget with automatic placement adjustments.
 
+Examples 
+## Example 1: Tooltip with Custom Widgets
+The advanced tooltip can display custom widgets, allowing you to fully personalize the content inside the tooltip.
+
+![Tooltip with Custom Widgets](assets/example2.png "Tooltip with Custom Widgets")
+
+## Example 2: Simple Tooltip with Text
+The simple tooltip displays text content with a customizable background color, border, and position.
+
+![Simple Tooltip with Text](assets/example1.png "Simple Tooltip with Text")
+
+---
+
 ## Getting Started
 
 To use the `smart_tooltip` package in your Flutter project:
@@ -17,26 +30,15 @@ To use the `smart_tooltip` package in your Flutter project:
 
    ```yaml
    dependencies:
-     smart_tooltip: ^0.0.14
+     smart_tooltip: ^0.0.15
 2. Run flutter pub get to install the dependencies.
 
 3. Import the package into your Dart file:
     ```yaml
     import 'package:smart_tooltip/smart_tooltip.dart';
-4. Examples 
-## Example 1: Simple Tooltip with Text
-The simple tooltip displays text content with a customizable background color, border, and position.
 
-![Simple Tooltip with Text](assets/example1.png "Simple Tooltip with Text")
 
----
-
-## Example 2: Tooltip with Custom Widgets
-The advanced tooltip can display custom widgets, allowing you to fully personalize the content inside the tooltip.
-
-![Tooltip with Custom Widgets](assets/example2.png "Tooltip with Custom Widgets")
-
-5. Usage
+4. Usage
     Here’s an example of how to use CustomTooltip:
     ```yaml
     import 'package:flutter/material.dart';
@@ -67,7 +69,7 @@ The advanced tooltip can display custom widgets, allowing you to fully personali
         }
         }
 
-6.Custom Tooltip with Widgets:
+5.Custom Tooltip with Widgets:
 ```yaml
         SmartTooltip(
         borderColor: Colors.black,

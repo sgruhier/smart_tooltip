@@ -17,4 +17,9 @@
 ### 0.0.14
 - **Latest Changes**: improve docs(Still).
 
+## 0.0.15
+- Fixed file naming issues to ensure consistency across platforms.
+- Updated imports to use lowercase file names.
+
+
 
