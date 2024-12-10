@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smart_tooltip/TooltipWithWidgetBorder.dart';
 import 'package:smart_tooltip/smartTooltip.dart';
 
+// changes
 /// A widget that displays a customizable tooltip with a widget as its content.
 /// The tooltip is dynamically positioned based on available space and user configuration.
 class SmartTooltipWithWidget extends StatefulWidget {

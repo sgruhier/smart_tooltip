@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smart_tooltip/TooltipBorderPainter.dart';
 import 'package:smart_tooltip/TooltipPainter.dart';
 
+// changes
 /// A customizable widget for displaying tooltips.
 ///
 /// [SmartTooltip] allows you to show a tooltip when hovering over or tapping a child widget.
