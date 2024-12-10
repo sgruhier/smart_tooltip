@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_tooltip/smartTooltip.dart';
+import 'package:smart_tooltip/smart_tooltip_text.dart';
 
 // changes
 /// A custom painter to draw a tooltip with a border and arrow indicating position.

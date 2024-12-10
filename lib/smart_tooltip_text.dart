@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:smart_tooltip/tooltipBorderPainter.dart';
-import 'package:smart_tooltip/tooltipPainter.dart';
+import 'package:smart_tooltip/tooltip_border_painter.dart';
+import 'package:smart_tooltip/tooltip_painter.dart';
 
 // changes
 /// A customizable widget for displaying tooltips.
